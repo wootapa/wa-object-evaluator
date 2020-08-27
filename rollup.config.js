@@ -27,7 +27,7 @@ export default [
             })
         ],
         output: [
-            { file: pkg.browser, format: 'umd', sourcemap: true, banner: banner, name: 'waoe' },
+            { file: pkg.main, format: 'umd', sourcemap: true, banner: banner, name: 'waoe' },
             { file: pkg.module, format: 'es', sourcemap: true, banner: banner }
         ],
     }
